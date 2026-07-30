@@ -1,0 +1,58 @@
+<svg width="900" height="800" viewBox="0 0 900 800" xmlns="http://www.w3.org/2000/svg" font-family="Inter, Arial, sans-serif">
+  <rect width="900" height="800" fill="#F7F8FA"/>
+  <!-- phone frame -->
+  <rect x="300" y="40" width="300" height="620" rx="34" fill="#13294B"/>
+  <rect x="312" y="60" width="276" height="580" rx="20" fill="#FFFFFF"/>
+  <rect x="400" y="52" width="100" height="14" rx="7" fill="#13294B"/>
+
+  <!-- status bar -->
+  <text x="332" y="86" font-size="10" fill="#6B7480">9:41</text>
+  <text x="556" y="86" font-size="10" fill="#6B7480" text-anchor="end">Synced ✓</text>
+
+  <!-- app header -->
+  <text x="332" y="120" font-size="15" font-weight="700" fill="#13294B">Field Inspection</text>
+  <text x="332" y="138" font-size="11" fill="#6B7480">Elm Street — Segment 4</text>
+
+  <!-- photo -->
+  <rect x="332" y="156" width="236" height="140" rx="10" fill="#EEF1F4" stroke="#E2E5E9"/>
+  <circle cx="450" cy="220" r="22" fill="#DEE3E9"/>
+  <path d="M440 220 l7 8 l13 -16" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="450" y="284" font-size="10" fill="#6B7480" text-anchor="middle">photo_04.jpg attached</text>
+
+  <!-- condition rating -->
+  <text x="332" y="322" font-size="11" fill="#4B5563" font-weight="600">Pavement condition (0–100)</text>
+  <rect x="332" y="332" width="236" height="10" rx="5" fill="#EEF1F4"/>
+  <rect x="332" y="332" width="74" height="10" rx="5" fill="#FF6B4A"/>
+  <circle cx="406" cy="337" r="9" fill="#FFFFFF" stroke="#FF6B4A" stroke-width="2.5"/>
+  <text x="332" y="362" font-size="18" font-weight="700" fill="#13294B">31 / 100</text>
+  <text x="420" y="362" font-size="11" fill="#FF6B4A" font-weight="600">Critical — was 41 in 2025</text>
+
+  <!-- notes -->
+  <text x="332" y="392" font-size="11" fill="#4B5563" font-weight="600">Notes</text>
+  <rect x="332" y="400" width="236" height="64" rx="8" fill="#F7F8FA" stroke="#E2E5E9"/>
+  <text x="344" y="420" font-size="10" fill="#4B5563">Alligator cracking across full</text>
+  <text x="344" y="436" font-size="10" fill="#4B5563">lane width, blocks 400–500.</text>
+  <text x="344" y="452" font-size="10" fill="#4B5563">Ponding after rain near curb.</text>
+
+  <!-- tags -->
+  <rect x="332" y="480" width="90" height="24" rx="12" fill="#FFEDE6"/>
+  <text x="377" y="496" font-size="10" fill="#C24A2E" text-anchor="middle" font-weight="700">Bus route</text>
+  <rect x="430" y="480" width="100" height="24" rx="12" fill="#FDF1DC"/>
+  <text x="480" y="496" font-size="10" fill="#A6650E" text-anchor="middle" font-weight="700">Drainage issue</text>
+
+  <!-- submit -->
+  <rect x="332" y="556" width="236" height="42" rx="8" fill="#2C6ECB"/>
+  <text x="450" y="582" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="700">Submit &amp; sync</text>
+  <text x="450" y="618" font-size="10" fill="#6B7480" text-anchor="middle">Updates Asset Registry in real time</text>
+
+  <!-- home indicator -->
+  <rect x="420" y="634" width="60" height="4" rx="2" fill="#DEE3E9"/>
+
+  <!-- side annotation card -->
+  <rect x="640" y="220" width="220" height="130" rx="10" fill="#FFFFFF" stroke="#E2E5E9"/>
+  <text x="660" y="250" font-size="11" font-weight="700" fill="#13294B">SYNCS TO</text>
+  <text x="660" y="272" font-size="12" fill="#4B5563">Asset Registry</text>
+  <text x="660" y="292" font-size="12" fill="#4B5563">Prioritization Engine</text>
+  <text x="660" y="312" font-size="12" fill="#4B5563">Council report queue</text>
+  <text x="660" y="334" font-size="10" fill="#6B7480">Works offline · syncs on reconnect</text>
+</svg>

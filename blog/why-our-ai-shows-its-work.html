@@ -1,0 +1,122 @@
+<!--
+  Groundwyre is a fictional B2B SaaS brand built as demo content for Avey.io.
+  Not a real company. Do not treat contact addresses, logos, or claims as real.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Why we made our AI show its work — Groundwyre</title>
+<meta name="description" content="Every priority score in Groundwyre comes with its reasoning attached. Here's why we built it that way, and what it costs in raw model performance.">
+<meta property="og:title" content="Why we made our AI show its work — Groundwyre">
+<meta property="og:image" content="../images/og-image.svg">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-inner">
+    <a class="brand" href="../index.html"><img src="../assets/logo.svg" alt="Groundwyre"></a>
+    <nav class="primary-nav">
+      <a href="../product.html">Product</a>
+      <a href="../solutions.html">Solutions</a>
+      <a href="../company.html">Company</a>
+      <a href="index.html" style="color:var(--navy); font-weight:600;">Blog</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="#" class="btn btn-ghost">Sign in</a>
+      <a href="../index.html#demo" class="btn btn-primary">Request a demo</a>
+    </div>
+  </div>
+</header>
+
+<section class="tight">
+  <div class="container">
+    <article class="post">
+      <div class="post-meta">Product · Nov 4, 2025 · 6 min read</div>
+      <h1>Why we made our AI show its work</h1>
+      <p class="post-lede">Every priority score in Groundwyre comes with its reasoning attached. That decision made the model harder to build — and it's the reason planning teams trust it enough to actually use it in a council meeting.</p>
+
+      <p>When we started building the Prioritization Engine, the easy version was tempting: feed in condition data, traffic counts, and budget history, and output a ranked list. Fast to build, fast to demo, and — for a while — fast to sell.</p>
+
+      <p>It's also close to useless for the people we build for.</p>
+
+      <p>A public works director doesn't get to say "the algorithm said so" in a council meeting. They get asked, in front of residents, why Elm Street is getting repaved before Maple Avenue — and they have thirty seconds to answer in a way that holds up. If the honest answer is "I don't fully know, the model ranked it higher," that's not a tool. That's a liability with a nice interface.</p>
+
+      <h2>What "explainable" means in practice</h2>
+      <p>For every score the Prioritization Engine produces, we require four things to be true:</p>
+      <ul>
+        <li>The score can be decomposed into its contributing factors — condition, risk, cost, equity — with a number attached to each.</li>
+        <li>A planner can see exactly how much each factor moved the final number.</li>
+        <li>A planner can adjust the weighting and watch the score recalculate live, without touching code or filing a support ticket.</li>
+        <li>Every override is logged, timestamped, and attributed — because six months later, someone in a public records request is going to ask why a score changed.</li>
+      </ul>
+
+      <figure>
+        <img src="../images/screenshot-prioritization.svg" alt="Groundwyre prioritization score breakdown showing condition, safety risk, equity, and cost factors">
+        <figcaption>Every score shows its factors. Planners can adjust weights and see the recalculation instantly.</figcaption>
+      </figure>
+
+      <h2>The performance we gave up</h2>
+      <p>We won't pretend this was free. A more opaque ensemble model, tuned purely for predictive accuracy on historical repair data, outperforms our explainable scoring approach by a measurable margin in backtesting — somewhere in the range of 6–9%, depending on the asset class.</p>
+
+      <p>We made that trade deliberately. A model that's 9% more "accurate" against historical repair patterns but can't tell a city engineer why it ranked a bridge above a bus route isn't more useful — it's just more confident. And confidence without a reason attached is exactly the kind of AI language we try to avoid putting in front of the people using this software every day.</p>
+
+      <blockquote>"If a city manager can't explain a decision to a city council, the tool has failed, no matter how accurate it was."</blockquote>
+
+      <h2>Where this leaves the model</h2>
+      <p>In practice, explainability turned out to be less of a performance tax than we expected. Constraining the model to factor-decomposable scoring forced us to be more disciplined about what actually predicts infrastructure failure — and a few of the "black box" signals we dropped turned out to be proxies for things like ZIP code, which we didn't want influencing prioritization anyway.</p>
+
+      <p>The score you see in Groundwyre today isn't the most powerful model we could have shipped. It's the one we'd be comfortable defending in a room full of residents who pay the taxes that fund it.</p>
+    </article>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand"><img src="../assets/logo-white.svg" alt="Groundwyre"></div>
+        <p style="color:var(--slate-500); font-size:0.88rem; max-width:240px;">The infrastructure planning platform for local government.</p>
+      </div>
+      <div>
+        <h4>Product</h4>
+        <a href="../product.html#asset-registry">Asset Registry</a>
+        <a href="../product.html#prioritization">Prioritization Engine</a>
+        <a href="../product.html#budgeting">Capital Budgeting</a>
+        <a href="../product.html#grants">Grant Intelligence</a>
+      </div>
+      <div>
+        <h4>Solutions</h4>
+        <a href="../solutions.html#city-manager">City Managers</a>
+        <a href="../solutions.html#public-works">Public Works</a>
+        <a href="../solutions.html#transportation">Transportation</a>
+        <a href="../solutions.html#econ-dev">Economic Development</a>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <a href="../company.html">About</a>
+        <a href="../company.html#values">Values</a>
+        <a href="index.html">Blog</a>
+        <a href="mailto:careers@groundwyre.io">Careers</a>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <a href="mailto:hello@groundwyre.io">hello@groundwyre.io</a>
+        <a href="../index.html#demo">Request a demo</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Groundwyre, Inc. All rights reserved.</span>
+      <span>Privacy · Terms · Security</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

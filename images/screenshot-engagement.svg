@@ -1,0 +1,64 @@
+<svg width="1280" height="800" viewBox="0 0 1280 800" xmlns="http://www.w3.org/2000/svg" font-family="Inter, Arial, sans-serif">
+  <rect width="1280" height="800" fill="#FFFFFF"/>
+  <rect width="1280" height="44" fill="#F7F8FA"/>
+  <rect y="44" width="1280" height="1" fill="#E2E5E9"/>
+  <circle cx="24" cy="22" r="6" fill="#E2E5E9"/><circle cx="44" cy="22" r="6" fill="#E2E5E9"/><circle cx="64" cy="22" r="6" fill="#E2E5E9"/>
+  <rect x="440" y="10" width="400" height="24" rx="12" fill="#EEF1F4"/>
+  <text x="640" y="26" font-size="11" fill="#6B7480" text-anchor="middle">fairhaven.civicportal.groundwyre.io/elm-street</text>
+
+  <!-- public site header -->
+  <rect y="45" width="1280" height="72" fill="#13294B"/>
+  <circle cx="40" cy="81" r="13" fill="#FFFFFF"/>
+  <path d="M31 82.5 L36.5 82.5 L39 78 L42 85 L44.5 79.5 L49 79.5" stroke="#FF6B4A" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="62" y="86" font-size="15" fill="#FFFFFF" font-weight="700">City of Fairhaven — Project Explorer</text>
+  <text x="1000" y="86" font-size="12" fill="#B8C4D9">Projects</text>
+  <text x="1080" y="86" font-size="12" fill="#B8C4D9">Budget</text>
+  <text x="1160" y="86" font-size="12" fill="#FFFFFF" font-weight="600">Give feedback</text>
+
+  <!-- content -->
+  <text x="32" y="156" font-size="11" fill="#6B7480">Public Works / Roads &amp; Sidewalks</text>
+  <text x="32" y="188" font-size="26" font-weight="700" fill="#13294B">Elm Street Reconstruction</text>
+  <rect x="32" y="204" width="94" height="24" rx="12" fill="#E7EFFB"/>
+  <text x="79" y="220" font-size="11" fill="#2C6ECB" text-anchor="middle" font-weight="700">FUNDED</text>
+  <rect x="134" y="204" width="140" height="24" rx="12" fill="#F7F8FA"/>
+  <text x="204" y="220" font-size="11" fill="#4B5563" text-anchor="middle">Starts Spring 2027</text>
+
+  <text x="32" y="256" font-size="13" fill="#4B5563">Full-depth reconstruction of Elm Street between 3rd and</text>
+  <text x="32" y="276" font-size="13" fill="#4B5563">7th Avenue, including new sidewalks, ADA curb ramps,</text>
+  <text x="32" y="296" font-size="13" fill="#4B5563">and drainage upgrades. Funded through 2026 Bond Series C.</text>
+
+  <!-- map preview -->
+  <rect x="32" y="326" width="700" height="260" rx="10" fill="#F4F6F8" stroke="#E2E5E9"/>
+  <g stroke="#DEE3E9"><line x1="32" y1="406" x2="732" y2="406"/><line x1="32" y1="486" x2="732" y2="486"/><line x1="252" y1="326" x2="252" y2="586"/><line x1="472" y1="326" x2="472" y2="586"/></g>
+  <path d="M80 540 C 200 500, 300 460, 420 440 S 600 400, 690 360" stroke="#FF6B4A" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <circle cx="420" cy="440" r="9" fill="#FF6B4A" stroke="#FFFFFF" stroke-width="3"/>
+
+  <!-- timeline -->
+  <rect x="752" y="326" width="496" height="260" rx="10" fill="#FFFFFF" stroke="#E2E5E9"/>
+  <text x="776" y="356" font-size="12" font-weight="700" fill="#13294B">TIMELINE</text>
+  <g font-size="11" fill="#4B5563">
+    <circle cx="784" cy="384" r="5" fill="#2C6ECB"/><text x="800" y="388">Design complete — Jun 2026</text>
+    <circle cx="784" cy="416" r="5" fill="#2C6ECB"/><text x="800" y="420">Council approval — Sep 2026</text>
+    <circle cx="784" cy="448" r="5" fill="#F5A623"/><text x="800" y="452">Bidding — Jan 2027</text>
+    <circle cx="784" cy="480" r="5" fill="#C4CAD3"/><text x="800" y="484">Construction begins — Apr 2027</text>
+    <circle cx="784" cy="512" r="5" fill="#C4CAD3"/><text x="800" y="516">Estimated completion — Nov 2027</text>
+  </g>
+  <rect x="776" y="536" width="450" height="1" fill="#E2E5E9"/>
+  <text x="776" y="560" font-size="11" fill="#6B7480">Budget</text>
+  <text x="776" y="580" font-size="16" fill="#13294B" font-weight="700">$2.4M</text>
+
+  <!-- comments -->
+  <rect x="32" y="606" width="1216" height="164" rx="10" fill="#F7F8FA" stroke="#E2E5E9"/>
+  <text x="56" y="636" font-size="12" font-weight="700" fill="#13294B">COMMUNITY FEEDBACK · 42 comments</text>
+  <rect x="56" y="654" width="380" height="6" rx="3" fill="#E2E5E9"/>
+  <rect x="56" y="654" width="258" height="6" rx="3" fill="#FF6B4A"/>
+  <text x="56" y="676" font-size="11" fill="#6B7480">68% support · 21% neutral · 11% opposed</text>
+
+  <rect x="56" y="694" width="560" height="56" rx="8" fill="#FFFFFF" stroke="#E2E5E9"/>
+  <text x="72" y="714" font-size="11" fill="#13294B" font-weight="600">Dana M. — Elm St. resident</text>
+  <text x="72" y="732" font-size="11" fill="#6B7480">Glad to see the sidewalks finally getting fixed on this block.</text>
+
+  <rect x="632" y="694" width="560" height="56" rx="8" fill="#FFFFFF" stroke="#E2E5E9"/>
+  <text x="648" y="714" font-size="11" fill="#13294B" font-weight="600">R. Okafor — Business owner</text>
+  <text x="648" y="732" font-size="11" fill="#6B7480">Please keep one lane open during construction for deliveries.</text>
+</svg>

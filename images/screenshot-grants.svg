@@ -1,0 +1,49 @@
+<svg width="1280" height="760" viewBox="0 0 1280 760" xmlns="http://www.w3.org/2000/svg" font-family="Inter, Arial, sans-serif">
+  <rect width="1280" height="760" fill="#FFFFFF"/>
+  <rect width="1280" height="44" fill="#F7F8FA"/>
+  <rect y="44" width="1280" height="1" fill="#E2E5E9"/>
+  <circle cx="24" cy="22" r="6" fill="#E2E5E9"/><circle cx="44" cy="22" r="6" fill="#E2E5E9"/><circle cx="64" cy="22" r="6" fill="#E2E5E9"/>
+  <rect x="470" y="10" width="340" height="24" rx="12" fill="#EEF1F4"/>
+  <text x="640" y="26" font-size="11" fill="#6B7480" text-anchor="middle">app.groundwyre.io/grants/matches</text>
+
+  <rect y="45" width="1280" height="60" fill="#FFFFFF"/>
+  <rect y="105" width="1280" height="1" fill="#E2E5E9"/>
+  <text x="32" y="82" font-size="18" font-weight="700" fill="#13294B">Grant Matches — Northside Culvert Replacement</text>
+  <rect x="1080" y="62" width="168" height="30" rx="6" fill="#2C6ECB"/>
+  <text x="1164" y="82" font-size="12" fill="#FFFFFF" text-anchor="middle" font-weight="600">Start application</text>
+
+  <!-- match card 1 -->
+  <rect x="32" y="132" width="1216" height="150" rx="10" fill="#FFFFFF" stroke="#E2E5E9"/>
+  <rect x="56" y="156" width="120" height="24" rx="12" fill="#E7EFFB"/>
+  <text x="116" y="172" font-size="11" fill="#2C6ECB" text-anchor="middle" font-weight="700">94% MATCH</text>
+  <text x="192" y="174" font-size="15" font-weight="700" fill="#13294B">EPA Clean Water State Revolving Fund</text>
+  <text x="56" y="204" font-size="12" fill="#6B7480">Stormwater infrastructure · Up to $1.2M · Applications open through Oct 2026</text>
+  <text x="56" y="226" font-size="12" fill="#4B5563">Eligible: asset condition score, documented flood risk, disadvantaged community index</text>
+  <rect x="56" y="242" width="1160" height="8" rx="4" fill="#EEF1F4"/>
+  <rect x="56" y="242" width="1090" height="8" rx="4" fill="#2C6ECB"/>
+  <text x="56" y="266" font-size="11" fill="#6B7480">Application readiness: 6 of 7 requirements met</text>
+
+  <!-- match card 2 -->
+  <rect x="32" y="298" width="1216" height="150" rx="10" fill="#FFFFFF" stroke="#E2E5E9"/>
+  <rect x="56" y="322" width="120" height="24" rx="12" fill="#FDF1DC"/>
+  <text x="116" y="338" font-size="11" fill="#A6650E" text-anchor="middle" font-weight="700">78% MATCH</text>
+  <text x="192" y="340" font-size="15" font-weight="700" fill="#13294B">State Infrastructure Resilience Grant</text>
+  <text x="56" y="370" font-size="12" fill="#6B7480">Multi-hazard mitigation · Up to $600K · Rolling applications</text>
+  <text x="56" y="392" font-size="12" fill="#4B5563">Eligible: repeat flood claims, engineering assessment on file</text>
+  <rect x="56" y="408" width="1160" height="8" rx="4" fill="#EEF1F4"/>
+  <rect x="56" y="408" width="904" height="8" rx="4" fill="#F5A623"/>
+  <text x="56" y="432" font-size="11" fill="#6B7480">Application readiness: 5 of 7 requirements met</text>
+
+  <!-- match card 3 -->
+  <rect x="32" y="464" width="1216" height="150" rx="10" fill="#FFFFFF" stroke="#E2E5E9"/>
+  <rect x="56" y="488" width="120" height="24" rx="12" fill="#F7F8FA"/>
+  <text x="116" y="504" font-size="11" fill="#6B7480" text-anchor="middle" font-weight="700">61% MATCH</text>
+  <text x="192" y="506" font-size="15" font-weight="700" fill="#13294B">Regional Council Cooperative Infrastructure Fund</text>
+  <text x="56" y="536" font-size="12" fill="#6B7480">Cross-jurisdiction projects · Up to $400K · Deadline Dec 2026</text>
+  <text x="56" y="558" font-size="12" fill="#4B5563">Eligible: requires 2+ participating municipalities</text>
+  <rect x="56" y="574" width="1160" height="8" rx="4" fill="#EEF1F4"/>
+  <rect x="56" y="574" width="708" height="8" rx="4" fill="#C4CAD3"/>
+  <text x="56" y="598" font-size="11" fill="#6B7480">Application readiness: 3 of 7 requirements met</text>
+
+  <text x="32" y="654" font-size="11" fill="#6B7480">Matches update automatically as new state and federal programs open.</text>
+</svg>

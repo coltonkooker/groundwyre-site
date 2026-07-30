@@ -1,0 +1,8 @@
+<svg width="176" height="28" viewBox="0 0 176 28" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Groundwyre">
+  <g>
+    <circle cx="14" cy="14" r="13" fill="#13294B"/>
+    <path d="M5 15.5 L10.5 15.5 L13 11 L16 18 L18.5 12.5 L23 12.5" stroke="#FF6B4A" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="23" cy="12.5" r="1.6" fill="#FF6B4A"/>
+  </g>
+  <text x="36" y="19" font-family="Space Grotesk, Arial, sans-serif" font-size="17" font-weight="700" fill="#13294B">Groundwyre</text>
+</svg>
